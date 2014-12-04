@@ -13,6 +13,9 @@
 		6749FE651A2FBD2200DAE22E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6749FE641A2FBD2200DAE22E /* Images.xcassets */; };
 		6749FE681A2FBD2200DAE22E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6749FE661A2FBD2200DAE22E /* LaunchScreen.xib */; };
 		6749FE741A2FBD2200DAE22E /* PingAnimatedTransitionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6749FE731A2FBD2200DAE22E /* PingAnimatedTransitionTests.swift */; };
+		6749FE831A2FBEC000DAE22E /* NavigationControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6749FE811A2FBEC000DAE22E /* NavigationControllerDelegate.swift */; };
+		6749FE841A2FBEC000DAE22E /* PingTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6749FE821A2FBEC000DAE22E /* PingTransitionAnimator.swift */; };
+		67C33D2F1A2FFF1100D37F4F /* CALayerPercentDrivenInteractiveTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C33D2E1A2FFF1100D37F4F /* CALayerPercentDrivenInteractiveTransition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		6749FE6D1A2FBD2200DAE22E /* PingAnimatedTransitionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PingAnimatedTransitionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6749FE721A2FBD2200DAE22E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6749FE731A2FBD2200DAE22E /* PingAnimatedTransitionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PingAnimatedTransitionTests.swift; sourceTree = "<group>"; };
+		6749FE811A2FBEC000DAE22E /* NavigationControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationControllerDelegate.swift; sourceTree = "<group>"; };
+		6749FE821A2FBEC000DAE22E /* PingTransitionAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PingTransitionAnimator.swift; sourceTree = "<group>"; };
+		67C33D2E1A2FFF1100D37F4F /* CALayerPercentDrivenInteractiveTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CALayerPercentDrivenInteractiveTransition.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +85,9 @@
 			children = (
 				6749FE5D1A2FBD2200DAE22E /* AppDelegate.swift */,
 				6749FE5F1A2FBD2200DAE22E /* ViewController.swift */,
+				6749FE821A2FBEC000DAE22E /* PingTransitionAnimator.swift */,
+				6749FE811A2FBEC000DAE22E /* NavigationControllerDelegate.swift */,
+				67C33D2E1A2FFF1100D37F4F /* CALayerPercentDrivenInteractiveTransition.swift */,
 				6749FE611A2FBD2200DAE22E /* Main.storyboard */,
 				6749FE641A2FBD2200DAE22E /* Images.xcassets */,
 				6749FE661A2FBD2200DAE22E /* LaunchScreen.xib */,
@@ -212,7 +221,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67C33D2F1A2FFF1100D37F4F /* CALayerPercentDrivenInteractiveTransition.swift in Sources */,
 				6749FE601A2FBD2200DAE22E /* ViewController.swift in Sources */,
+				6749FE841A2FBEC000DAE22E /* PingTransitionAnimator.swift in Sources */,
+				6749FE831A2FBEC000DAE22E /* NavigationControllerDelegate.swift in Sources */,
 				6749FE5E1A2FBD2200DAE22E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -405,6 +417,7 @@
 				6749FE791A2FBD2200DAE22E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6749FE7A1A2FBD2200DAE22E /* Build configuration list for PBXNativeTarget "PingAnimatedTransitionTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +426,7 @@
 				6749FE7C1A2FBD2200DAE22E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
