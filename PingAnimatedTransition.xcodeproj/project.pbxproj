@@ -8,14 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		6749FE5E1A2FBD2200DAE22E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6749FE5D1A2FBD2200DAE22E /* AppDelegate.swift */; };
-		6749FE601A2FBD2200DAE22E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6749FE5F1A2FBD2200DAE22E /* ViewController.swift */; };
 		6749FE631A2FBD2200DAE22E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6749FE611A2FBD2200DAE22E /* Main.storyboard */; };
 		6749FE651A2FBD2200DAE22E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6749FE641A2FBD2200DAE22E /* Images.xcassets */; };
 		6749FE681A2FBD2200DAE22E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6749FE661A2FBD2200DAE22E /* LaunchScreen.xib */; };
 		6749FE741A2FBD2200DAE22E /* PingAnimatedTransitionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6749FE731A2FBD2200DAE22E /* PingAnimatedTransitionTests.swift */; };
-		6749FE831A2FBEC000DAE22E /* NavigationControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6749FE811A2FBEC000DAE22E /* NavigationControllerDelegate.swift */; };
-		6749FE841A2FBEC000DAE22E /* PingTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6749FE821A2FBEC000DAE22E /* PingTransitionAnimator.swift */; };
-		67C33D2F1A2FFF1100D37F4F /* CALayerPercentDrivenInteractiveTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C33D2E1A2FFF1100D37F4F /* CALayerPercentDrivenInteractiveTransition.swift */; };
+		678048151A3127E7001E4DC7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678048101A3127E7001E4DC7 /* ViewController.swift */; };
+		678048161A3127E7001E4DC7 /* CALayerPercentDrivenInteractiveTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678048121A3127E7001E4DC7 /* CALayerPercentDrivenInteractiveTransition.swift */; };
+		678048171A3127E7001E4DC7 /* NavigationControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678048131A3127E7001E4DC7 /* NavigationControllerDelegate.swift */; };
+		678048181A3127E7001E4DC7 /* PingTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678048141A3127E7001E4DC7 /* PingTransitionAnimator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,16 +32,16 @@
 		6749FE581A2FBD2200DAE22E /* PingAnimatedTransition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PingAnimatedTransition.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6749FE5C1A2FBD2200DAE22E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6749FE5D1A2FBD2200DAE22E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6749FE5F1A2FBD2200DAE22E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6749FE621A2FBD2200DAE22E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6749FE641A2FBD2200DAE22E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6749FE671A2FBD2200DAE22E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		6749FE6D1A2FBD2200DAE22E /* PingAnimatedTransitionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PingAnimatedTransitionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6749FE721A2FBD2200DAE22E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6749FE731A2FBD2200DAE22E /* PingAnimatedTransitionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PingAnimatedTransitionTests.swift; sourceTree = "<group>"; };
-		6749FE811A2FBEC000DAE22E /* NavigationControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationControllerDelegate.swift; sourceTree = "<group>"; };
-		6749FE821A2FBEC000DAE22E /* PingTransitionAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PingTransitionAnimator.swift; sourceTree = "<group>"; };
-		67C33D2E1A2FFF1100D37F4F /* CALayerPercentDrivenInteractiveTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CALayerPercentDrivenInteractiveTransition.swift; sourceTree = "<group>"; };
+		678048101A3127E7001E4DC7 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		678048121A3127E7001E4DC7 /* CALayerPercentDrivenInteractiveTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CALayerPercentDrivenInteractiveTransition.swift; sourceTree = "<group>"; };
+		678048131A3127E7001E4DC7 /* NavigationControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationControllerDelegate.swift; sourceTree = "<group>"; };
+		678048141A3127E7001E4DC7 /* PingTransitionAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PingTransitionAnimator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,10 +84,8 @@
 			isa = PBXGroup;
 			children = (
 				6749FE5D1A2FBD2200DAE22E /* AppDelegate.swift */,
-				6749FE5F1A2FBD2200DAE22E /* ViewController.swift */,
-				6749FE821A2FBEC000DAE22E /* PingTransitionAnimator.swift */,
-				6749FE811A2FBEC000DAE22E /* NavigationControllerDelegate.swift */,
-				67C33D2E1A2FFF1100D37F4F /* CALayerPercentDrivenInteractiveTransition.swift */,
+				6780480F1A3127E7001E4DC7 /* Demo */,
+				678048111A3127E7001E4DC7 /* Classes */,
 				6749FE611A2FBD2200DAE22E /* Main.storyboard */,
 				6749FE641A2FBD2200DAE22E /* Images.xcassets */,
 				6749FE661A2FBD2200DAE22E /* LaunchScreen.xib */,
@@ -119,6 +117,24 @@
 				6749FE721A2FBD2200DAE22E /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6780480F1A3127E7001E4DC7 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				678048101A3127E7001E4DC7 /* ViewController.swift */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		678048111A3127E7001E4DC7 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				678048121A3127E7001E4DC7 /* CALayerPercentDrivenInteractiveTransition.swift */,
+				678048131A3127E7001E4DC7 /* NavigationControllerDelegate.swift */,
+				678048141A3127E7001E4DC7 /* PingTransitionAnimator.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,11 +237,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				67C33D2F1A2FFF1100D37F4F /* CALayerPercentDrivenInteractiveTransition.swift in Sources */,
-				6749FE601A2FBD2200DAE22E /* ViewController.swift in Sources */,
-				6749FE841A2FBEC000DAE22E /* PingTransitionAnimator.swift in Sources */,
-				6749FE831A2FBEC000DAE22E /* NavigationControllerDelegate.swift in Sources */,
+				678048171A3127E7001E4DC7 /* NavigationControllerDelegate.swift in Sources */,
+				678048181A3127E7001E4DC7 /* PingTransitionAnimator.swift in Sources */,
+				678048151A3127E7001E4DC7 /* ViewController.swift in Sources */,
 				6749FE5E1A2FBD2200DAE22E /* AppDelegate.swift in Sources */,
+				678048161A3127E7001E4DC7 /* CALayerPercentDrivenInteractiveTransition.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
