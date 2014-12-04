@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-### What is this repository for? ###
+A animated and interactive transition modelled after the 'Ping' app.
 
-A animated / interactive transition modelled after the 'Ping' app.
-=======
-PingAnimatedTransition
-======================
->>>>>>> a1f12da88eea7035b4c410b3af34e0aa66ed20e4
+![alt tag](https://cloud.githubusercontent.com/assets/5367914/5308340/9f614902-7be3-11e4-90d0-0f08e26ffab2.gif)
