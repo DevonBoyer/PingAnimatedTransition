@@ -4,7 +4,7 @@
 
 ####What is this repository for?####
 
-A animated and interactive transition modelled after the 'Ping' app. This one was just too cool pass up making :)
+A animated and interactive transition modelled after the 'Ping' app. This one was just too cool to pass up :)
 
 ####Supports####
 
